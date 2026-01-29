@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      input,
+      .big input {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p
+        style="
+          text-align: center;
+          font-size: 35px;
+          width: 350px;
+          color: rgb(0, 0, 86);
+        "
+      >
+        ROMAN NUMERAL CONVERTER
+      </p>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          background-color: rgb(0, 0, 86);
+          padding: 20px;
+        "
+        class="big"
+      >
+        <p
+          style="
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+          "
+        >
+          Enter a Number:
+        </p>
+        <input
+          style="width: 277px; padding: 10px; background-color: rgb(0, 0, 58)"
+          id="enterNum"
+          type="number"
+        />
+        <button
+          style="
+            width: 300px;
+            padding: 10px;
+            background-color: rgb(255, 191, 0);
+            border: 2px solid rgb(255, 179, 39);
+            font-size: 17px;
+          "
+        >
+          Convert
+        </button>
+      </div>
+      <div class="small">
+        <p></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
